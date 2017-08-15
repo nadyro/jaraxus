@@ -32,7 +32,10 @@
 			<input type="password" name="user_password" class="user_password" placeholder="Mot de passe">
 		</div>
 		<div class='container col-4 div_valid'>
+		<div class='div_bg_valid'>
+		<div class='div_abs_bg_valid'></div>
 			<input type="button" name="valid_logon" class='valid_logon' value="Go !">
+			</div>
 		</div>
 		</div>
 	</div>
@@ -81,12 +84,13 @@
 		</div>
 	</div>
 </div>
-<div class='row div_main_index'>
+<div class='div_main_index'>
 	<div class='row div_index'>
 		<div class='col-6 div_first_part'>
 
 		</div>
-		<div class='col-6 div_second_part'>
+		<div class='col-1'></div>
+		<div class='col-5 div_second_part'>
 		<h2>
 			Créez votre compte et débutez votre aventure !
 		</h2>
@@ -105,7 +109,11 @@
 					<input type="radio" id="1" name="sexe" value="1"> <p> Femme </p>
 					</span>
 					</div>
-					<input type="button" value="Go !" name='user_submit' onclick="receive()">
+
+		<div class='div_bg_valid div_valid'>
+		<div class='div_abs_bg_valid'></div>
+			<input type="button" name="valid_logon" class='valid_logon' value="Go !">
+			</div>
 					<input type='hidden' name='user_hidden'>
 				</form>
 			</div>

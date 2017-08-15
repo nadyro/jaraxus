@@ -4,15 +4,91 @@ body
 	background-color: aliceblue;
 }
 header
-{
-	width: 100%;
-	position: relative;
-	height: 90px;
-	background-color: rgba(68, 131, 255,0.8);
+{	
+	background-color: #1c94e0;
+	font-family: 'Josefin Sans', sans-serif;
 }
 p
 {
 	margin: 0;
+}
+.div_title
+{
+	text-align: center;
+	padding: 15px;
+}
+.div_title_tabs
+{
+	padding: 10px;
+}
+.div_logon
+{
+	padding: 15px;
+}
+.div_container_logon
+{
+	padding: 10px;
+}
+.div_username, .div_pwd
+{
+	padding: 10px;
+}
+.div_valid input
+{
+	background: transparent;
+	border: solid;
+	border-width: 1px;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.big_container
+{
+}
+.div_all_index
+{
+	margin: 10px 0;
+}
+.div_main_tabs
+{
+}
+.div_tabs
+{
+}
+.div_container_tabs
+{
+	padding: 10px;
+}
+.div_content_tabs
+{
+	border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.div_tabs p
+{
+	padding: 10px;
+	font-size: 19px;
+}
+.div_third_tab
+{
+	border-right: none;
+}
+.div_slider
+{
+	margin-top: 10px;
+    height: 298px;
+}
+.div_container_slider
+{
+	background: url(mountain.jpg);
+    height: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
 }
 h2
 {
@@ -27,20 +103,11 @@ h2
 .div_header
 {
 	height: 100%;
+	padding: 10px;
 }
 .div_header .container_t_l
 {
 	height: 100%;
-}
-
-.div_header .col-4, .div_header .col-5, .div_header .col-8
-{
-	display: inline-block;
-}
-.div_header .div_logon
-{
-	position: absolute;
-	right: 0;
 }
 .div_header .div_logon .div_container_logon input
 {
@@ -48,27 +115,17 @@ h2
 }
 .div_main_index
 {
-}
-.div_title, .div_logon
-{
-	transform: translateY(-50%);
-	top: 50%;
-}
-.div_container_logon, .div_valid
-{
-	padding: 0;
-}
-.div_valid
-{
-	max-width: 31%;
-}
-.div_pwd, .div_username
-{
-	margin: 5px;
-}
-.div_main_index
-{
 	padding: 15px !important;
+}
+.div_index
+{
+	border: solid;
+	border-width: 1px;
+}
+.div_index .div_first_part
+{
+	border-right: solid;
+	border-width: 1px;
 }
 .div_second_part .div_container_sp .form_register .user_sex
 {

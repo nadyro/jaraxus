@@ -23,31 +23,141 @@
 			L'apprentissage par l'amusement.
 		</h4>
 	</div>
-		<div class='container div_logon'>
+	<div class='container div_logon' style="display: none;">
 		<div class='container div_container_logon'>
-		<div class='container col-4 div_username'>
-			<input type="text" name="email_username" class="email_username" placeholder="Identifiant">	
+		<form id='form_connect' class='form_connect' method="POST" enctype="multipart/form-data">
+			<div class="form-group div_user_login">
+			<label for="user_login" class="col-sm-2 col-form-label">
+						Identifiant
+					</label>
+					<input type="text" name="user_login" class="form-control user_login" placeholder="Identifiant">
+			</div>
+			<div class="form-group div_user_pwd">
+			<label for="user_pwd" class="col-sm-2 col-form-label">
+						Mot de passe
+					</label>
+					<input type="password" name="user_pwd" class="form-control user_pwd" placeholder="Mot de passe">
+			</div>
+			<button type="submit" class="btn btn-primary user_login_submit">Go !</button>
+		</form>
 		</div>
-		<div class='container col-4 div_pwd'>
-			<input type="password" name="user_password" class="user_password" placeholder="Mot de passe">
+	</div>
+	<div class='container div_user'>
+		<div class='row'>
+		<div class='col-4 div_user_infos'>
+		<div class='user_infos'>
+		<h4>
+			Profil
+		</h4>
+		<div class='row user_pp'>
+		<div class='col-3'></div>
+		<div class='col-6'>
+			<img src="avtr.png" class='pp img-fluid' alt='Nadir Sehnoun'>
 		</div>
-		<div class='container col-4 div_valid'>
-		<div class='div_bg_valid'>
-		<div class='div_abs_bg_valid'></div>
-			<input type="button" name="valid_logon" class='valid_logon' value="Go !">
+		<div class='col-3'></div>
+		</div>
+		<div class='container user_other_infos'>
+		<div class='infos_user_name'>
+			<p>
+				Nadir Sehnoun
+			</p>
+		</div>
+		<div class='infos_user_age'>
+		<p>
+			24 ans
+		</p>
+		</div>
+		<div class='infos_user_country'>
+		<p>
+			France
+		</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class='col-8 div_user_activity'>
+		<div class='row user_activity'>
+
+			<div class='col-6 user_next_courses'>
+			<div class='container div_user_next_courses'>
+			<h5>
+				Cours à venir
+			</h5>
+			<div class='user_course'>
+			<p>
+				Jeudi 24 Août à 16:00
+			</p>
+			<p>
+				Cours de soutien en Histoire
+			</p>
+			</div>
+			<div class='user_course'>
+			<p>
+				Lundi 28 Août à 17:30
+			</p>
+			<p>
+				Classe de conjugaison
+			</p>
+			</div>
+			<div class='user_course'>
+			<p>
+				Mercredi 6 Septembre à 14:00
+			</p>
+			<p>
+				Match de foot
+			</p>
+			</div>
+			</div>
+			</div>
+			<div class='col-6 div_user_history'>
+				<div class='container user_history'>
+			<h5>
+				Parcours
+			</h5>
+			<div class='container_user_course_history'>
+				<div class='user_course_history user_course_name histoire'>
+					<p>
+					Histoire
+					</p>
+				</div>
+				<div class='user_course_history user_course_name francais'>
+					<p>
+					Français
+					</p>
+				</div>
+				<div class='user_course_history user_course_name conjugaison'>
+					<p>
+					Conjugaison
+					</p>
+				</div>
+				</div>
+				<div class='row h-25 align-items-end container_user_progress'>
+				<div class='col-4 h-50 oldest_course'>
+				<div class='h-100 container_oldest_course'>
+					Jeu 24 Aoû
+				</div>
+				</div>
+				<div class='col-4 h-25 intermediate_course'>
+				<div class='h-100 container_intermediate_course'>
+					Lun 28 Aoû
+				</div>
+				</div>
+				<div class='col-4 h-100 newest_course'>
+				<div class='h-100 container_newest_course'>
+					Mer 6 Sept
+				</div>
+				</div>
+				</div>
+				</div>
 			</div>
 		</div>
 		</div>
+		</div>
+		</div>
 	</div>
-</div>
 	</div>
 </header>
 <div class='big_container'>
-<!--<div class='container div_slider'>
-	<div class='div_container_slider container'>
-
-	</div>
-</div>-->
 <div class='div_all_index'>
 <div class='div_main_tabs'>
 	<div class='div_container_tabs row'>

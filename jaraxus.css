@@ -157,3 +157,90 @@ h2
 	background-position-x: 50%;
 	background-position-y: 50%;
 }
+.user_infos
+{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	background: rgba(255,255,255,0.5);
+}
+.user_infos h4, .user_activity h4, .user_next_courses h5, .user_history h5
+{
+	text-align: center;
+	padding: 5px;
+}
+.user_other_infos
+{
+	text-align: center;
+}
+.user_activity
+{
+	height: 100%;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.user_course
+{
+	margin-bottom: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 5px;
+}
+.user_course_history
+{
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.user_history
+{
+	height: 100%;
+}
+.user_course_history p
+{
+	position: relative;
+}
+.bg_user_course_history
+{
+	position: absolute;
+	height: 100%;
+	background: green;
+}
+.user_history .histoire
+{
+	width: 30%;
+	background: green;
+}
+.user_history .francais
+{
+	width: 68%;
+	background: lightsalmon;
+}
+.user_history .conjugaison
+{
+	width: 87%;
+	background: yellow;
+}
+.user_course_name p span
+{
+	font-style: italic;
+	font-size: 12px;
+	color: gray;
+}
+.user_course_name
+{
+	padding: 3px;
+	border-radius: 3px;
+}
+.container_user_progress
+{
+	margin-top: 5px;
+}
+.container_user_course_history
+{
+	border: solid;
+	border-width: 1px;
+}
+.container_oldest_course, .container_intermediate_course, .container_newest_course
+{
+	border: solid;
+    border-width: 1px;
+    border-bottom: none;
+}

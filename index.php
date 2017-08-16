@@ -96,25 +96,72 @@
 		</h2>
 			<div class='container div_container_sp'>
 				<form id="form_register" class='form_register' method="POST" enctype="multipart/form-data">
-					<input type="text" name="user_name" placeholder="Prénom">
-					<input type="text" name="user_surname" placeholder="Nom">
-					<input type="text" name="user_email" placeholder="Adresse Email">
-					<input type="password" name="user_password" placeholder="Mot de passe">
-					<input type="text" name="user_birthday" placeholder="Date de naissance (01/01/1970)">
-					<div class='div_user_sex'>
-					<span class='user_sex'>
-					<input type="radio" id="0" name="sexe" value="0"> <p> Homme </p>
-					</span>
-					<span class='user_sex'>
-					<input type="radio" id="1" name="sexe" value="1"> <p> Femme </p>
-					</span>
-					</div>
 
-		<div class='div_bg_valid div_valid'>
-		<div class='div_abs_bg_valid'></div>
-			<input type="button" name="valid_logon" class='valid_logon' value="Go !">
-			</div>
-					<input type='hidden' name='user_hidden'>
+				<div class="form-group row div_username">
+					<label for="user_name" class="col-sm-2 col-form-label">
+						Nom
+					</label>
+					<div class="col-sm-10 div_input_username">
+					<input type="text" name="user_name" class="form-control user_name" placeholder="Nom">
+					</div>
+				</div>
+				<div class="form-group row div_user_surname">
+					<label for="user_surname" class="col-sm-2 col-form-label">
+						Prénom
+					</label>
+					<div class="col-sm-10 div_input_user_surname">
+					<input type="text" name="user_surname" class="form-control user_surname" placeholder="Prénom">
+					</div>
+				</div>
+				<div class="form-group row div_email">
+					<label for="user_email" class="col-sm-2 col-form-label">
+						Email
+					</label>
+					<div class="col-sm-10 div_input_user_email">
+					<input type="text" name="user_email" class="form-control user_email" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group row div_user_password">
+					<label for="user_password" class="col-sm-2 col-form-label">
+						Mot de passe
+					</label>
+					<div class="col-sm-10 div_input_user_password">
+					<input type="password" name="user_password" class="form-control user_password" placeholder="Mot de passe">
+					</div>
+				</div>
+				<div class="form-group row div_user_birthday">
+					<label for="user_birthday" class="col-sm-2 col-form-label">
+						Nom
+					</label>
+					<div class="col-sm-10 div_input_user_birthday">
+					<input type="text" name="user_birthday" class="form-control user_birthday" placeholder="Date de naissance (01/01/1970)">
+					</div>
+				</div>
+				<fieldset class="form-group fieldset_sex">
+					<div class="row div_user_sex">
+						<legend class="col-form-legend col-sm-2 legend_sex">
+							Sexe
+						</legend>
+						<div class="col-sm-10 div_user_sex_h">
+						<div class="form-check formcheck_user_sex">
+							<label class="form-check-label label_user_sex_h">
+							<input type="radio" class="form-check-input user_sex_h user_sex" name="user_sex" id="user_sex_h" value="0">
+							Homme								
+							</label>
+						</div>
+						<div class="form-check formcheck_user_sex">
+							<label class="form-check-label label_user_sex_f">
+							<input type="radio" class="form-check-input user_sex_f user_sex" name="user_sex" id="user_sex_f" value="1">
+							Femme								
+							</label>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group row">
+				<div class="col-sm-10 div_user_submit">
+				<button type="submit" class="btn btn-primary user_submit">Go !</button>
+				</div>
+				</div>
 				</form>
 			</div>
 					<p class='termsofuse'>

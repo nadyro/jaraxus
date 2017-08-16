@@ -131,20 +131,33 @@
 					</p>
 				</div>
 				</div>
-				<div class='row h-25 align-items-end container_user_progress'>
+				<div class='row h-25'>
+				<div class='col-2'>
+					<div class='col-4'>
+					<p>10</p>
+					</div>
+					<div class='col-4'>
+					<p>5</p>
+					</div>
+					<div class='col-4'>
+					<p>0</p>
+					</div>
+				</div>
+				<div class='row col-10 align-items-end container_user_progress'>
 				<div class='col-4 h-50 oldest_course'>
 				<div class='h-100 container_oldest_course'>
-					Jeu 24 Aoû
+					<p class='date_course'>Je 24 Aoû</p>
 				</div>
 				</div>
-				<div class='col-4 h-25 intermediate_course'>
+				<div class='col-4 intermediate_course'>
 				<div class='h-100 container_intermediate_course'>
-					Lun 28 Aoû
+					<p class='date_course'>Lu 28 Aoû</p>
 				</div>
 				</div>
 				<div class='col-4 h-100 newest_course'>
 				<div class='h-100 container_newest_course'>
-					Mer 6 Sept
+					<p class='date_course'>Me 6 Sept</p>
+				</div>
 				</div>
 				</div>
 				</div>

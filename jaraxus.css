@@ -233,14 +233,19 @@ h2
 {
 	margin-top: 5px;
 }
-.container_user_course_history
-{
-	border: solid;
-	border-width: 1px;
-}
 .container_oldest_course, .container_intermediate_course, .container_newest_course
 {
-	border: solid;
-    border-width: 1px;
-    border-bottom: none;
+	font-size: 12px;
+}
+.container_oldest_course .date_course
+{
+	background: yellow;
+}
+.container_intermediate_course .date_course
+{
+	background: lightsalmon;
+}
+.container_newest_course .date_course
+{
+	background: green;
 }

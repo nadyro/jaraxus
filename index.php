@@ -209,11 +209,189 @@
 </div>
 <div class='div_main_index'>
 	<div class='row div_index'>
-		<div class='col-6 div_first_part'>
+	<div class='container div_register_courses'>
+	
+	<form id="form_register_courses" class='row form_register_courses' method="POST" enctype="multipart/form-data">
+	<div class='container row content_form_register_courses'>
+	<div class='col-6 div_type_course'>
+	<h5>
+		Nature de la réservation
+	</h5>
+	<div class='form-check check_courses'>
+	<label class='form-check-label'>
+		<input type='checkbox' class='form-check-input' name='activity_course'>
+		Activité
+	</label>
+	</div>
+	<div class='form-check check_courses'>
+	<label class='form-check-label'>
+		<input type='checkbox' class='form-check-input' name='course_course'>
+		Cours
+	</label>
+	</div>
+	</div>
+	<div class='col-6 div_nbp_course'>
+	<h5>
+		Nombre de personnes
+	</h5>
+	<fieldset class="form-group fieldset_nbp_course">
+					<div class="col-sm-12 nbp_course">
+						<div class="form-check check_1p">
+							<label class="form-check-label label_check_1p">
+							<input type="radio" class="form-check-input 1_p" name="1_p" id="1_p" value="1">
+							1								
+							</label>
+						</div>
+						<div class="form-check check_2p">
+							<label class="form-check-label label_check_2p">
+							<input type="radio" class="form-check-input 2_p" name="2_p" id="2_p" value="2">
+							2							
+							</label>
+						</div>
+						<div class="form-check check_3p">
+							<label class="form-check-label label_check_3p">
+							<input type="radio" class="form-check-input 3_p" name="3_p" id="3_p" value="3">
+							3								
+							</label>
+						</div>
+						<div class="form-check check_4pp">
+							<label class="form-check-label label_check_4pp">
+							<input type="radio" class="form-check-input 4p_p" name="4p_p" id="4p_p" value="4">
+							4								
+							</label>
+							<label for='details_nbp_4p'>
+								Si plus de 4 personnes, précisez le nombre
+							</label>
+							<input type='text' name="details_nbp_4p" class='details_nbp_4p'>
+						</div>
+					</div>
+				</fieldset>
+	</div>
+	</div>
+	<div class='container container_table_planning'>
+	<table class="table table-inverse table_planning">
+		<thead>
+			<tr>
+				<th class='table_void'></th>
+				<th>Lundi</th>
+				<th>Mardi</th>
+				<th>Mercredi</th>
+				<th>Jeudi</th>
+				<th>Vendredi</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">8:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">9:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">10:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">11:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">12:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">13:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">14:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">14:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">15:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">16:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">17:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+			<tr>
+				<th scope="row">18:00</th>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+				<td class="table_void"></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<div class="form-group row">
+				<div class="col-sm-10 div_user_submit">
+				<button type="submit" class="btn btn-primary submit_courses">Go !</button>
+				</div>
+				</div>
+	</form>
+	</div>
+		<div class='col-6 div_first_part' style="display: none;">
 
 		</div>
-		<div class='col-1'></div>
-		<div class='col-5 div_second_part'>
+		<div class='col-1' style="display: none;"></div>
+		<div class='col-5 div_second_part' style="display: none;">
 		<h2>
 			Créez votre compte et débutez votre aventure !
 		</h2>

@@ -249,3 +249,8 @@ h2
 {
 	background: green;
 }
+.table_planning th, .table_planning td
+{
+	border-left-style: solid;
+    border-width: 1px;
+}

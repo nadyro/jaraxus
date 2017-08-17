@@ -27,6 +27,10 @@ $(document).ready(function()
 		$(this).css("top", "0");
 		$(this).css("box-shadow", "0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)");
 	});
+	$(".submit_courses").click(function()
+	{
+		receive();
+	});
 });
 
 function test()
@@ -38,11 +42,11 @@ function receive()
 {
 	var formData = {};
 	var i = 0;
-	var formElements = document.getElementById("form_register").elements;
+	var formElements = document.getElementById("form_register_courses").elements;
 	
 	while (i <= formElements.length)
 	{
-		if (formElements[i].type != "hidden")
+		if (formElements[i].type != "submit")
 		{
 			console.log(formElements[i].name + " : " + formElements[i].value);
 			formData[formElements[i].name] = formElements[i].value;
